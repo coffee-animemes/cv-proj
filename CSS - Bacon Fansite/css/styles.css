@@ -1,0 +1,29 @@
+h1 {
+  color: red;
+}
+
+/* to call a class, you need a .XXX before the class name in "XXX" */
+/* you use class for multiple instances of the same style, id for only ONE item on a page */
+
+.bacon {
+  background-color:green;
+}
+
+.broccli {
+  background-color: red;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+/* you use a # sign to call an id */
+#heading{
+  color:blue;
+}
+
+#big{
+  font-size: 1000px;
+}
+
+/* pseudo classes are something you can add to enhance the classes; they are denoted by :pseudoclass */

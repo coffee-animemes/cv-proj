@@ -1,0 +1,24 @@
+  /* General CSS rules
+  selector (who is being changed) {
+    property(what is being changed): value(how do you want to change?);
+  } */
+
+    body {
+      background-color:powderblue;
+    }
+
+    h1{
+      color: #2B2E43;
+    }
+
+    h3{
+      color: #367588;
+    }
+
+    hr {
+      border: none;
+      border-top-style: dotted;
+      border-color: gray;
+      border-width: 5px;
+      width: 5%;
+    }

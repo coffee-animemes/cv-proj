@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p>1234 Street St.</p>
+  <p>Phone Number: 111.222.3456</p>
+  <p>fakeemail@gmail.com</p>
+
+  <form class="" action="index.html" method="post">
+    <label>Your Name</label>
+    <input type="text" name="" value="">
+    <input type="submit" name=""
+  </form>
+
+  <hr>
+
+<!-- reset button example -->
+  <form>
+    <div class="controls">
+
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id" />
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </div>
+</form>
+
+<hr>
+
+<!-- password input example -->
+<form action="">
+  <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+  </div>
+
+  <div>
+      <label for="pass">Password (8 characters minimum):</label>
+      <input type="password" id="pass" name="password"
+             minlength="8" required>
+  </div>
+
+  <input type="submit" value="Sign in">
+</form>
+
+<hr>
+
+<!-- file selection -->
+<form action="">
+  <label for="avatar">Choose a profile picture:</label>
+
+  <input type="file"
+         id="avatar" name="avatar"
+         accept="image/png, image/jpeg">
+</form>
+
+
+<hr>
+
+<!-- custom graphical submit buttons that uses an image rather than a text -->
+<form action="">
+  <p>Sign in to your account:</p>
+
+  <div>
+    <label for="userId">User ID</label>
+    <input type="text" id="userId" name="userId">
+  </div>
+
+  <input type="image" id="image" alt="Login"
+         src="/media/examples/login-button.png">
+</form>
+
+<hr>
+
+
+</body>
+</html>
