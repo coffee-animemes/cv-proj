@@ -1,0 +1,115 @@
+h1 {
+    font-family: "Bellefair", serif;
+    font-size: 150px;
+}
+
+h2 {
+    font-family: "Bellefair", serif;
+    font-size: 100px;
+}
+
+h3 {
+    font-family: "Bellefair", serif;
+    font-size: 56px;
+}
+
+h4 {
+    font-family: "Bellefair", serif;
+    font-size: 32px;
+}
+
+h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.74rem;
+}
+
+p {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.sub-h1 {
+    font-family: "Bellefair", serif;
+    font-size: 28px;
+}
+
+.sub-h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35rem;
+}
+
+.nav-text {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7rem;
+}
+
+
+/* use nav text on all of the classes below until explore */
+/* this is navi idle state; navi instead of nav in case of usage of Bootstrap later on */
+.navi {
+    color: #FFFFFF
+}
+
+.navi::hover {
+    color: #FFFFFF
+    /* border on the bottom in grey for the effect */
+}
+
+.navi-active {
+    color: #FFFFFF
+    /* border on the bottom in white for the effect */
+}
+
+/* this is the idle state */
+.tabs {
+    color:#D0D6F9;
+}
+
+.tabs::hover{
+    /* On hover, have a faded text decoration underline appear */
+}
+
+.tabs-active {
+    /* Make the text #FFFFFF and textdecoration of underline if active html */
+}
+
+/* this is the idle state */
+.slider-burger {
+    /* temp color until finding the right shade of dark grey */
+    color: black;
+}
+
+.slider-burger::hover {
+    /* On hover, have the circle be greyed out in contrast to active */
+    color: grey;
+}
+
+.slider-burger-active {
+    /* On active html page, have the dot be a white fill */
+}
+
+.slider-vert {
+    color: #FFFFFF;
+    /* look up info for circle button/tab  */
+}
+
+.slider-vert::hover {
+    /* on hover, increase the size of the border/radius of the circle */
+}
+
+.slider-vert-active {
+    /* make text the color black and the circle and fill white */
+}
+
+
+.explore-main {
+    /* on idle, have the text color be black and the border/radius and fill be white */
+}
+
+.explore-main::hover {
+    /* have an expanding faded circle by 50% appear */
+}
+
+
